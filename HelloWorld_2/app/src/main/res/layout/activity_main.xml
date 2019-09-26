@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#A20000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Test One"
+        android:background="#ffffff"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Test Two"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffff"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Test Three"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Test Four"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffff"
+        android:textSize="24sp"/>
+
+
+    <TextView
+        android:id="@+id/txtSix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Six"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:layout_marginBottom="24dp"
+        android:layout_above="@id/txtFive"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/txtSeven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Seven"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:layout_marginBottom="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@id/txtFive"
+        android:background="#ffffff" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Test Large Large Large Eight"
+        android:textColor="#000000"
+        android:maxLines="1"
+        android:textSize="24sp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/txtSix"
+        android:layout_toStartOf="@id/txtSeven"
+        android:layout_marginBottom="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/txtFive"
+        android:ellipsize="end"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/txtFive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Test Five Center In Parent"
+        android:layout_centerInParent="true"
+        android:background="#ffffff"
+        android:textSize="24sp"/>
+
+
+    <TextView
+        android:id="@+id/txtNine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Nine"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:layout_marginTop="24dp"
+        android:layout_below="@id/txtFive"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/txtTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Ten"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/txtFive"
+        android:background="#ffffff" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Test Large Large Large Eight"
+        android:textColor="#000000"
+        android:maxLines="1"
+        android:textSize="24sp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/txtNine"
+        android:layout_toStartOf="@id/txtTen"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtFive"
+        android:ellipsize="end"
+        android:background="#ffffff" />
+
+</RelativeLayout>
